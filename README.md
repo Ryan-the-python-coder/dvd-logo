@@ -25,19 +25,26 @@ Supports window resizing, multi-monitor setups, and fullscreen toggle with smoot
 ## Usage
 
 1. Clone or download this repo  
-2. Add a `dvd_logo.png` image file in the project folder (or use your own DVD logo image)  
-3. Run the app:
+2. Add the `dvd_logo.png` image file in the project folder (or use your own DVD logo image)
+3. Rename file extension to `.pyw` for no console
+4. Run the app:
 
+4A. If you skipped 3:
 ```bash
-python dvd_bouncer.py
+python dvdlogo.py
 ```
-4. Use **F11** to toggle fullscreen, **Esc** to exit fullscreen
-5. Resize and move the window as you like
+4B. If you did 3:
+```bash
+python dvdlogo.pyw
+```
+
+5. Use **F11** to toggle fullscreen, **Esc** to exit fullscreen
+6. Resize and move the window as you like
 
 ## Customize
 
 - Replace `dvd_logo.png` with any image you want
-- Adjust animation speed or bounce behavior inside dvd_bouncer.py
+- Adjust animation speed or bounce behavior inside dvdlogo.py
 
 ## License
 This program uses an **MIT License**.
